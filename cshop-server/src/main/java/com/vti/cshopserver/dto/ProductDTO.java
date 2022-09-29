@@ -26,7 +26,7 @@ public class ProductDTO extends RepresentationModel<ProductDTO> {
     @Getter
     @Setter
     @NoArgsConstructor
-    public static class CategoryDTO {
+    public static class CategoryDTO extends RepresentationModel<CategoryDTO>{
         private int id;
         private String name;
         private LocalDate createdDate;
